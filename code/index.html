@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width">
+  <title>Modal</title>
+  <link rel="stylesheet" href="https://tomap.co/ZP_reset.css" />
+  <link rel="stylesheet" href="css/style.css" media="all">
+</head>
+
+<body>
+  <header class="header">
+    <h1 class="header__ttl">NanaPlus</h1>
+    <div class="header-nav">
+        <nav class="nav__list">
+            <ul class="header__list">
+                <li class="list__item" id="list01"><a href="" class="list__link">About</a></li>
+                <li class="list__item" id="list02"><a href="" class="list__link">Member</a></li>
+                <li class="list__item" id="list03"><a href="" class="list__link">Article</a></li>
+                <li class="list__item" id="list04"><a href="" class="list__link">Gallery</a></li>
+                <li class="list__item" id="list05"><a href="" class="list__link">Contact us</a></li>
+            </ul>
+        </nav>
+    </div>
+  </header>
+
+  <section class="section">
+    <h2 class="section__ttl">About us</h2>
+    <p class="section__subttl">-Seven Appeal Points of Us-</p>
+    <div class="about">
+      <div class="about__content" id="about01">
+        <p class="about__word" id="word01">Active</p>
+        <p class="about__txt">We organize a study group and a meetup to realize each other...
+        </p>
+      </div>
+      <div class="about__content" id="about02">
+        <p class="about__word" id="word01">Cooperative</p>
+        <p class="about__txt" id="txt02">If someone ask questions, we willingly help each other...</p>
+      </div>
+      <div class="about__content" id="about03">
+        <p class="about__word" id="word01">Hardworker</p>
+        <p class="about__txt" id="txt03">We continue to improve our programming skill everyday...</p>
+      </div>
+      <div class="about__content" id="about04">
+        <p class="about__word" id="word01">Tolerant</p>
+        <p class="about__txt" id="txt04">We always encourage each other though we have difficulities...</p>
+      </div>
+      <div class="about__content" id="about05">
+        <p class="about__word" id="word01">Unnique</p>
+        <p class="about__txt" id="txt05">Each of us has a unique personality and respect each other...</p>
+      </div>
+      <div class="about__content" id="about06">
+        <p class="about__word">Upward Mobility</p>
+        <p class="about__txt" id="txt06">We have own<br> goals and make efforts to achieve<br> it everyday...</p>
+      </div>
+      <div class="about__content" id="about07">
+        <p class="about__word">Well Balanced</p>
+        <p class="about__txt" id="txt07">We build great teamwork though our personality are so different ...</p>
+      </div>
+    </div>
+  </section>
+
+
+    <!-- モーダルウィンドウ-->
+    <button id="modal-open" class="raised" href="">Read More</button>
+
+    <section id="modal">
+        <div class="modal__overlay"></div>
+        <div class="modal__content">
+            <div class="modal__item">
+                <h2 class="modal__ttl">To Teachers</h2>
+                <p class="modal__txt">
+                  Thank you for always being supportive !! We really enjoy your lesson everyweek :) <br>With all your help, we can learn and develop our programming skill, <br>even though we face difficulties !!<br>Thank you again for your continuous support :)
+                </p>
+                <p class="modal__subtxt">Sincerely,</p>
+                <p class="modal__name">NanaPlus</p>
+            </div>
+            <div class="modal__action">
+                <button id="modal-close">CLOSE</button>
+            </div>
+        </div>
+    </section>
+
+    <p class="text">※NanaPlus means "オンライン7期生"</p>
+
+    <footer class="footer">
+      <p class="footer__txt">NanaPlus</p>
+    </footer>
+
+<!-- jQueryの読み込み（CDN） -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<!-- main.jsの読み込み -->
+<script src="js/main.js"></script>
+</body>
+
+</html>
+
+
